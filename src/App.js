@@ -72,7 +72,7 @@ function App() {
   };
   useEffect(() => {
     authlistener();
-  }, []);
+  },);
   return (
     <div className="App">
       {user && <Hero handlelogout={handlelogout}/>}
